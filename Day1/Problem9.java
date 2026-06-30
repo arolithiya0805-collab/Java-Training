@@ -1,6 +1,6 @@
 package Day1;
 
-public class Problem12 {
+public class Problem9 {
     static {
         System.out.println("Static Block");
     }
