@@ -1,6 +1,6 @@
 package Day1;
 
-public class Problem9 {
+public class Problem6 {
     static void show() {
         System.out.println("Method");
     }
