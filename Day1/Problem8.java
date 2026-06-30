@@ -1,6 +1,6 @@
 package Day1;
 
-public class Problem11 {
+public class Problem8 {
     void display() {
         System.out.println("Object Created");
     }
