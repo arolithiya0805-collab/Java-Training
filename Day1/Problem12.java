@@ -1,6 +1,6 @@
 package Day1;
 
-public class Problem3 {
+public class Problem12 {
     Problem3() {
         System.out.println("Constructor Called");
     }
