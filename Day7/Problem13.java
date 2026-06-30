@@ -1,8 +1,5 @@
 package Day7;
 
-public class Problem13 {
-    package Day7;
-
 import java.util.Scanner;
 
 public class Problem13 {
