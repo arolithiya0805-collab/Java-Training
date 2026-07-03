@@ -1,19 +1,23 @@
 package Day12;
 
-import java.util.Scanner;
 
 public class Problem1 {
-    public static void main(String[] args) {
+    public void reverseString(char[] s) {
 
-        Scanner sc = new Scanner(System.in);
-        char ch = sc.next().charAt(0);
+     int left = 0,right = s.length-1;
 
-        if (ch >= 'a' && ch <= 'z') {
-            System.out.println("true");
-        } 
-        else if (ch >= 'A' && ch <= 'Z') {
-            System.out.println("false");
+        while(left < right)
+        {
+           char temp = s[left];
+           s[left] = s[right];
+           s[right] =temp;
+           left++;
+           right--;
         }
-    sc.close();
     }
 }
+
+
+
+    
+
