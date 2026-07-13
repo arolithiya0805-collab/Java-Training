@@ -7,27 +7,19 @@ public class Problem12 {
         int a = 10;
         int b = 5;
 
-        /*
-        try {
-            System.out.println(a / b);
-        } catch (ArithmeticException e) {
-            System.out.println("Divide by zero");
-        } finally {
-            System.out.println("Default");
-        }
-        */
-
         int[] arr = {1, 2, 3, 4, 5};
-        String str = null;
+        String str = "Hello";
 
         try {
             System.out.println(a / b);
             System.out.println(arr[2]);
             System.out.println(str.charAt(2));
-        } catch (ArithmeticException ae) {
+        } catch (ArithmeticException e) {
             System.out.println("Arithmetic Exception");
-        } catch (ArrayIndexOutOfBoundsException aie) {
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Array Index Out Of Bounds Exception");
+        } catch (NullPointerException e) {
+            System.out.println("Null Pointer Exception");
         } catch (Exception e) {
             System.out.println("Unknown Exception");
         }
