@@ -15,7 +15,7 @@ class Solution {
         for (char c : p.toCharArray())
             count[c - 'a']++;
 
-        int left = 0, right = 0;i
+        int left = 0, right = 0;
 
         while (right < s.length()) {
             count[s.charAt(right) - 'a']--;
